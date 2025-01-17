@@ -50,7 +50,7 @@ protected:
 
 	float targetOneFrameTime = 0.0f;
 
-	bool quit = false;
+	bool quit;
 
 	KeyState keyState[256];
 
