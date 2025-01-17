@@ -1,5 +1,7 @@
 ﻿#pragma once
 
+#include "Container/List.h"
+
 // 전방 선언
 class Actor;
 class Level
@@ -15,9 +17,7 @@ public:
 	virtual void Draw();
 
 protected:
-	Actor** actors;
+	List<Actor*> actors;
 
-	int capacity;
-
-	int count;
+	Actor* addRequestedActor = nullptr;
 };
