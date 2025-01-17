@@ -1,7 +1,6 @@
 ﻿#pragma once
 
-#include <iostream>
-#include <Windows.h>
+#include <PreCompiledHeader.h>
 
 //디버그용
 #define _CRTDBG_MAP_ALLOC
